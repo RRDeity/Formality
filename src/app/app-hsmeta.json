@@ -1,0 +1,25 @@
+{
+  "uid": "formality_app",
+  "type": "app",
+  "config": {
+    "name": "Formality",
+    "description": "AI-powered HubSpot app providing CRM form analytics.",
+    "distribution": "private",
+    "auth": {
+      "type": "static",
+      "requiredScopes": [
+        "oauth",
+        "crm.objects.contacts.read",
+        "crm.objects.contacts.write"
+      ]
+    },
+    "permittedUrls": {
+      "fetch": [
+        "https://api.hubapi.com",
+        "https://formality-api.vercel.app"
+      ],
+      "iframe": [],
+      "img": []
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "uid": "formality_card",
+  "type": "card",
+  "config": {
+    "name": "Formality",
+    "description": "Displays analytics on where users abandon forms and provides AI suggestions for optimization.",
+    "location": "crm.record.sidebar",
+    "entrypoint": "/app/cards/FormalityCard.jsx",
+    "objectTypes": ["contacts"]
+  }
+}

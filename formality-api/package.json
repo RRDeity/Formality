@@ -1,0 +1,17 @@
+{
+  "name": "formality-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "External API backend for the Formality HubSpot app (Vercel).",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/ping.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vercel/node": "latest"
+  }
+}

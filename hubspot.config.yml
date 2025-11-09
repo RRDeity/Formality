@@ -1,0 +1,27 @@
+defaultPortal: Formality-Dev
+portals:
+  - name: Formality
+    portalId: 21982972
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          ''
+        expiresAt: ''
+    accountType: STANDARD
+    personalAccessKey: >-
+      ''
+  - name: Formality-Dev
+    portalId: 50669717
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          ''
+        expiresAt: ''
+    accountType: DEVELOPMENT_SANDBOX
+    personalAccessKey: >-
+      ''
+    parentAccountId: 21982972

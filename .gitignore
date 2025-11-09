@@ -1,0 +1,21 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+.vercel
+src/app/secrets.json
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Vercel local cache
+.vercel
